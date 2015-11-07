@@ -80,7 +80,7 @@ class YouTube extends MediaTypeBase {
       $configuration,
       $plugin_id,
       $plugin_definition,
-      $container->get('entity_manager'),
+      $container->get('entity.manager'),
       $container->get('config.factory')
     );
   }
